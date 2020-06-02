@@ -85,6 +85,14 @@ mgtnetworkdevice： 管理网卡，即发送阻断包网卡
 srcmac： 源MAC地址，即管理网卡MAC地址
 dstmac： 目的MAC地址，即管理网卡所在网段的网关MAC地址
 ```
+
+`SADD blacktargetlist "ip1" "ip2" `
+
+```
+blacktargetlist: IP黑名单
+whitetargetlist: IP白名单
+```
+
 ### 配置监听网卡
 
 需要将监听网卡配置为混杂模式
