@@ -1,0 +1,9 @@
+HMSET sysconfig mirrornetworkdevice "ens37" mgtnetworkdevice "ens33" srcmac "00:0c:29:f0:1a:f6" dstmac "d4:a1:48:96:6a:3c" 
+HMGET sysconfig mirrornetworkdevice
+HGETALL sysconfig
+
+SADD whitetargetlist "ip1" "ip2"
+SMEMBERS whitetargetlist
+
+SADD blacktargetlist "ip1" "ip2"
+SMEMBERS blacktargetlist
